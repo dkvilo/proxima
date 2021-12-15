@@ -1,4 +1,4 @@
-#pragma *META |10;
+#pragma *META |...;
 @name &str:  "1 Blue 5 Red";
 @desc &str: "Solve this puzzle by reaching the checkpoint";
 @preview &ref<Image>: image.png;
@@ -14,7 +14,7 @@
 @f_height &int: 704;
 #end;
 
-#pragma *STATE |5;
+#pragma *STATE |...;
 @rule &ref<Rule>: RULE_1;
 @red &int: 1;
 @green &int: 2;
@@ -22,7 +22,7 @@
 @test &float: 1.2;
 #end;
 
-#pragma *DATA |11;
+#pragma *DATA |11,11;
 + 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 + 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 + 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
