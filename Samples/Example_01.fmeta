@@ -1,0 +1,37 @@
+#pragma *META |10;
+@name &str:  "1 Blue 5 Red";
+@desc &str: "Solve this puzzle by reaching the checkpoint";
+@preview &ref<Image>: image.png;
+
+@col &int: 11;
+@row &int: 11;
+
+@s_unit &ref<Unit>: px;
+
+@t_height &int: 64;
+@t_width &int: 64;
+@f_width &int: 704;
+@f_height &int: 704;
+#end;
+
+#pragma *STATE |5;
+@rule &ref<Rule>: RULE_1;
+@red &int: 1;
+@green &int: 2;
+@blue &int: 4;
+@test &float: 1.2;
+#end;
+
+#pragma *DATA |11;
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
++ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+#end;
