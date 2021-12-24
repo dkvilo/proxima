@@ -1,5 +1,5 @@
-# FMeta Spec 0.1
-FMeta is a Domain-specific language to serialize Game-Level data. It was designed for my upcoming puzzle game.
+# Proxima Spec 0.1
+Proxima is a Domain-specific language to serialize Game-Level data. It was designed for my upcoming puzzle game.
 
 # Specification overview
 
@@ -47,7 +47,7 @@ FMeta is a Domain-specific language to serialize Game-Level data. It was designe
 #end;
 
 ! Represent 4x4 Identity Matrix
-#pragma *DATA | 4,4;
+#pragma *DATA |{4, 4};
 + 1, 0, 0, 0
 + 0, 1, 0, 0
 + 0, 0, 1, 0
